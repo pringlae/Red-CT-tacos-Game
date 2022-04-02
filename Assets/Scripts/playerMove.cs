@@ -5,27 +5,53 @@ using UnityEngine;
 public class playerMove : MonoBehaviour
 {
     public float speed;
-    public float defaultScaleX;
+    private Rigidbody2D myRigidbody;
+    private Vector3 change;
+    private Animator animator;
+    private bool isGoingForward;
 
     private void Start()
     {
-        defaultScaleX = transform.localScale.x;
+        animator = GetComponent<Animator>();
+        myRigidbody = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
-        transform.Translate(Input.GetAxis("Horizontal") * speed * Time.deltaTime, Input.GetAxis("Vertical") * speed * Time.deltaTime, 0f);
 
-        Vector3 scale = transform.localScale;
-        if(Input.GetAxis("Horizontal") < 0)
+        change = Vector3.zero;
+        change.x = Input.GetAxisRaw("Horizontal");
+        change.y = Input.GetAxisRaw("Vertical");
+        UpdateAnimationAndMove();
+    
+    }
+
+    void UpdateAnimationAndMove()
+    {
+        if (change != Vector3.zero)
         {
-            scale.x = defaultScaleX;
+            isGoingForward = true;
+            if (isGoingForward)
+            {
+                MoveCharacter();
+            }
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+            animator.SetBool("moving", true);
         }
         else
         {
-            scale.x = -defaultScaleX;
+            animator.SetBool("moving", false);
         }
-        transform.localScale = scale;
     }
-   
+    void MoveCharacter()
+    {
+        myRigidbody.MovePosition(
+            transform.position + change * speed
+            );
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        isGoingForward = false;
+    }
 }
