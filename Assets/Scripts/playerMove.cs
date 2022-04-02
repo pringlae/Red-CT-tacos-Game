@@ -23,7 +23,7 @@ public class playerMove : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         UpdateAnimationAndMove();
-    
+
     }
 
     void UpdateAnimationAndMove()
@@ -47,7 +47,7 @@ public class playerMove : MonoBehaviour
     void MoveCharacter()
     {
         myRigidbody.MovePosition(
-            transform.position + change * speed
+            transform.position + change * speed * Time.fixedDeltaTime
             );
     }
     private void OnCollisionEnter(Collision collision)
