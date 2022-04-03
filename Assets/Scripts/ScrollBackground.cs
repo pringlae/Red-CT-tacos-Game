@@ -15,7 +15,7 @@ public class ScrollBackground : MonoBehaviour
 
     void Update()
     {
-        float offset = Mathf.Repeat(Time.time * speed, 475);
-        transform.position = startPosition + new Vector2(0, -offset);
+        float offset = Mathf.Repeat(Time.time * speed, 96);
+        transform.position = startPosition + new Vector2(-offset, 0);
     }
 }
