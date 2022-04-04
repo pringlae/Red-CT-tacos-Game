@@ -626,7 +626,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_SizeDelta: {x: 1920, y: 1260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &397542459
 MonoBehaviour:
@@ -925,7 +925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369, y: -424}
+  m_AnchoredPosition: {x: -369, y: -479.00018}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &539637191
@@ -1446,7 +1446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.081, y: 309.00003}
+  m_AnchoredPosition: {x: 6.081, y: 253.99982}
   m_SizeDelta: {x: 1700.142, y: 361.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &914247837
@@ -1521,7 +1521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 6.112, y: 76}
+  m_AnchoredPosition: {x: 6.112, y: -1}
   m_SizeDelta: {x: -121.798, y: -27.957}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1027269029
@@ -1557,7 +1557,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I mean, just in case...
+  m_Text: 'Great! This ship is pride of the Fluffy Alliance. This starship will carry
+    thousands more such flights! '
 --- !u!222 &1027269030
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1683,7 +1684,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 677.99994, y: 455}
+  m_AnchoredPosition: {x: 677.99994, y: 548}
   m_SizeDelta: {x: 350, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1143178409
@@ -1850,8 +1851,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'I''m already flying, just in case, tell my catwoman and catchildren that
-    I love them
+  m_Text: 'Cpt. Bulldog, the flight is running normally
 
 '
 --- !u!222 &1252550375
@@ -1897,7 +1897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.081, y: 309.00003}
+  m_AnchoredPosition: {x: 6.081, y: 253.99982}
   m_SizeDelta: {x: 1700.142, y: 361.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266585135
@@ -2141,7 +2141,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I have to run, I'll be there soon. [end of call]
+  m_Text: 'I got an alarm! I have to go! '
 --- !u!222 &1287198941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2377,7 +2377,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318.99988, y: -423.99982}
+  m_AnchoredPosition: {x: 318.99988, y: -479}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1419208494
@@ -2574,7 +2574,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.081, y: 309.00003}
+  m_AnchoredPosition: {x: 6.081, y: 253.99982}
   m_SizeDelta: {x: 1700.142, y: 361.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1479430807
@@ -2819,8 +2819,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Listen, Catfriend, when are you going to get my ship back!? Just try to
-    break something there!
+  m_Text: 'Cat-friend, report, how the flight is going?
 
 '
 --- !u!222 &1661496114
@@ -2866,7 +2865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.081, y: 309.00003}
+  m_AnchoredPosition: {x: 6.081, y: 253.99982}
   m_SizeDelta: {x: 1700.142, y: 361.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736679204
@@ -2941,7 +2940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -369, y: -424}
+  m_AnchoredPosition: {x: -369, y: -479.00018}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1915747964
@@ -3016,7 +3015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 318.99988, y: -423.99982}
+  m_AnchoredPosition: {x: 318.99988, y: -479}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1917799051
@@ -3237,7 +3236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31.131, y: 375.721}
+  m_AnchoredPosition: {x: 31.131, y: 455}
   m_SizeDelta: {x: 756.503, y: 195.803}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1924760936
@@ -3317,7 +3316,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 6.081, y: 309.00003}
+  m_AnchoredPosition: {x: 6.081, y: 253.99982}
   m_SizeDelta: {x: 1700.142, y: 361.143}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1945585742
