@@ -15,4 +15,14 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Игра закрылась");
         Application.Quit();
     }
+
+    public void ReplayPressed()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void MenuPressed()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
