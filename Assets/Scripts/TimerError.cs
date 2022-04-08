@@ -11,21 +11,19 @@ public class TimerError : MonoBehaviour
     float timeLeft;
     public GameObject Alarm;
     bool once;
+    float container;
     // Start is called before the first frame update
     void Start()
     {
         timerBar = GetComponent<Image>();
         timeLeft = maTime;
+        container = maTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!once)
-        {
-            once = true;
-            Alarm.SetActive(true);
-        }
+        
         SaveLeft();
     }
     void SaveLeft()
@@ -34,12 +32,26 @@ public class TimerError : MonoBehaviour
         {
             timeLeft -= Time.deltaTime;
             timerBar.fillAmount = timeLeft / maTime;
-            if(Alarm.activeInHierarchy == false)
+            if (timeLeft < maTime / 3)
             {
-                timeLeft = maTime;
-                once = false;
-                
+                if (!once)
+                {
+                    once = true;
+                    Alarm.SetActive(true);
+                }
+                timerBar.color = new Color32(255, 0, 0, 255);
+                if (Alarm.activeInHierarchy == false)
+                {
+                    timeLeft = container;
+                    container = container - (container / 5);
+                    timerBar.color = new Color32(132, 132, 132, 255);
+                    once = false;
+
+                }
             }
+            
+          
+            
         }
         else
         {
