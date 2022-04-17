@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 327681217}
   - component: {fileID: 327681216}
   m_Layer: 5
-  m_Name: speech0 (5)
+  m_Name: Stepan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1265,8 +1265,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 412.4, y: 0.0000042915}
+  m_SizeDelta: {x: 62.686, y: 81.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419281436
 MonoBehaviour:
@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6199930346120021646, guid: ee7a4dc5af430084eae488679a400fa9, type: 3}
+  m_Sprite: {fileID: 8109961452125243670, guid: 9b8c60da4b51e8842b3abb0b0dddc8bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1697,7 +1697,7 @@ GameObject:
   - component: {fileID: 582836657}
   - component: {fileID: 582836656}
   m_Layer: 5
-  m_Name: speech0 (2)
+  m_Name: Vitya
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1715,7 +1715,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1949066950}
-  - {fileID: 1603782766}
+  - {fileID: 1947020346}
   m_Father: {fileID: 199664437}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2786,7 +2786,7 @@ GameObject:
   - component: {fileID: 1134569113}
   - component: {fileID: 1134569112}
   m_Layer: 5
-  m_Name: speech0 (1)
+  m_Name: Alena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2804,7 +2804,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1041752166}
-  - {fileID: 1947020346}
+  - {fileID: 1603782766}
   m_Father: {fileID: 199664437}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3018,8 +3018,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 415, y: 0.000022411}
+  m_SizeDelta: {x: 81.541, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1193777739
 MonoBehaviour:
@@ -3041,7 +3041,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2567327180837255342, guid: ee7a4dc5af430084eae488679a400fa9, type: 3}
+  m_Sprite: {fileID: -3842349112851974538, guid: 9335cff0350297d42afb9a243a7cad70, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4077,7 +4077,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Vlad - Scripts
+  m_Text: Vlad Sadigov - Scripts
 --- !u!222 &1457476243
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4377,8 +4377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 412.782, y: -0.000022888}
+  m_SizeDelta: {x: 69.699, y: 84.928}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1496500777
 MonoBehaviour:
@@ -4400,7 +4400,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5520366552862887254, guid: ee7a4dc5af430084eae488679a400fa9, type: 3}
+  m_Sprite: {fileID: 6712532373438760351, guid: 6e76b4d6dbd8e4846b451643bddf7e0b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4601,17 +4601,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603782765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 582836655}
+  m_Father: {fileID: 1134569111}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 411.00302, y: -4.9}
+  m_SizeDelta: {x: 65.181, y: 81.514}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1603782767
 MonoBehaviour:
@@ -4633,7 +4633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1628121119188565281, guid: ee7a4dc5af430084eae488679a400fa9, type: 3}
+  m_Sprite: {fileID: 7985599866512838043, guid: b220d212da4e4f24f82aa1eff876ed97, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4953,7 +4953,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stepan
+  m_Text: Stepan Podgorsky - Lore
 --- !u!222 &1825552225
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5032,7 +5032,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Idegel
+  m_Text: Idegel Saaya - Art
 --- !u!222 &1860339131
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5597,17 +5597,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1947020345}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1134569111}
+  m_Father: {fileID: 582836655}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 412, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 412.337, y: 0.000024796}
+  m_SizeDelta: {x: 64.806, y: 80.752}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1947020347
 MonoBehaviour:
@@ -5629,7 +5629,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 845435351983453723, guid: ee7a4dc5af430084eae488679a400fa9, type: 3}
+  m_Sprite: {fileID: -5702819743607401525, guid: 123d0432e314c234dadd7d22267a8d75, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5717,7 +5717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Victor - Game Designer
+  m_Text: Victor Sirotin - Level Designer
 --- !u!222 &1949066952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5778,7 +5778,7 @@ GameObject:
   - component: {fileID: 2017234149}
   - component: {fileID: 2017234148}
   m_Layer: 5
-  m_Name: speech0 (4)
+  m_Name: Echis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5921,7 +5921,7 @@ GameObject:
   - component: {fileID: 2034692728}
   - component: {fileID: 2034692727}
   m_Layer: 5
-  m_Name: speech0
+  m_Name: Vlad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5998,7 +5998,7 @@ GameObject:
   - component: {fileID: 2101073120}
   - component: {fileID: 2101073119}
   m_Layer: 5
-  m_Name: speech0 (3)
+  m_Name: Idegel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6097,8 +6097,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 410, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 411.031, y: 0.00001359}
+  m_SizeDelta: {x: 61.291, y: 77.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2141499002
 MonoBehaviour:
@@ -6120,7 +6120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8409852448668208626, guid: ee7a4dc5af430084eae488679a400fa9, type: 3}
+  m_Sprite: {fileID: -3377450860065710963, guid: 6dddc81c5082e4441b043c0b9b913842, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
